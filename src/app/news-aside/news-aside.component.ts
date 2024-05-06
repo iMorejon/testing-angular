@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'news-aside',
+  selector: 'news',
   standalone: true,
   imports: [],
   templateUrl: './news-aside.component.html'
