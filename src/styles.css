@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+app-root {
+  display: grid;
+  height: 100dvh;
+  width: 100dvw;
+  grid-template-rows: 50px 1fr;
+}

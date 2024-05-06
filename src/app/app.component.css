@@ -1,0 +1,26 @@
+main {
+  display: grid;
+  grid-template-areas:
+    "profile feed news"
+    "community feed footer";
+}
+
+community-panel {
+  grid-area: "community";
+}
+
+feed {
+  grid-area: "feed";
+}
+
+app-footer {
+  grid-area: "footer";
+}
+
+news-aside {
+  grid-area: "news";
+}
+
+small-profile {
+  grid-area: "profile";
+}
