@@ -1,5 +1,5 @@
 import { Component, Input, numberAttribute } from '@angular/core'
-import { IconDefinition } from '@fortawesome/fontawesome-svg-core'
+import toCapitalize from '../../lib/toCapitalize'
 
 @Component({
   selector: 'header-nav-icon',
@@ -8,8 +8,9 @@ import { IconDefinition } from '@fortawesome/fontawesome-svg-core'
   templateUrl: './header-nav-icon.component.html'
 })
 export class HeaderNavIconComponent {
+
   @Input({ transform: numberAttribute }) _id!: number
-  @Input() name!: string
+  @Input({ transform: toCapitalize }) _name!: string
   @Input() href!: string
-  @Input({ }) icon!: IconDefinition
+  @Input() icon!: string
 }

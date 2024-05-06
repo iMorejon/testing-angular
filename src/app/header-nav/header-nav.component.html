@@ -1,1 +1,3 @@
-<p>header-nav works!</p>
+@for (link of links; track link._id) {
+<header-nav-icon _id="{{link._id}}" _name="{{link.name}}" href="{{link.href}}" icon="{{link.icon}}"></header-nav-icon>
+}

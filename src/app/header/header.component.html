@@ -1,1 +1,4 @@
-<p>header works!</p>
+<form action="" class="flex gap-4">
+  <input type="text" name="search" #search (keydown.enter)="submitSearch(search.value)" />
+</form>
+<header-nav class="flex gap-4" />
