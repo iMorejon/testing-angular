@@ -1,4 +1,22 @@
-@for (link of links; track link._id) {
-<header-nav-icon class="flex flex-col items-center justify-center" _id="{{link._id}}" _name="{{link.name}}"
-  href="{{link.href}}" icon="{{link.icon}}" />
-}
+<div class="flex items-center py-2 border-r">
+  <header-nav-icon class="flex flex-col items-center justify-center lg:hidden" _name="Buscar" href=""
+    icon="assets/nav-icons/faGlass.svg"></header-nav-icon>
+  @for (link of links; track link._id) {
+  <header-nav-icon class="flex flex-col items-center justify-center" _id="{{link._id}}" _name="{{link.name}}"
+    href="{{link.href}}" icon="{{link.icon}}" />
+  }
+</div>
+<div class="items-center hidden py-2 sm:flex">
+  <header-nav-icon class="flex flex-col items-center justify-center text-center" _name="Para negocios" href="/sales"
+    icon="assets/nav-icons/faGrid.svg" />
+  <a class="block w-32 text-center text-orange-800 underline text-pretty" href="/sales">Reactiva Premium con un -50%</a>
+</div>
+<div class="flex items-center py-2 sm:hidden">
+  <header-nav-icon class="flex flex-col items-center justify-center text-center" _name="Más" href=""
+    icon="assets/nav-icons/faBurger.svg" />
+</div>
+
+<!-- TODO: On Click Burger => Dropdown -->
+<!-- TODO: On Click Profile => Dropdown -->
+<!-- TODO: On Click Grid => Side Modal -->
+<!-- TODO: On Click Glass => input on full header -->
