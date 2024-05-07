@@ -1,4 +1,10 @@
-<form action="" class="flex gap-4">
-  <input type="text" name="search" #search (keydown.enter)="submitSearch(search.value)" />
-</form>
-<header-nav class="flex gap-4" />
+<div class="flex items-center justify-between w-full h-full max-w-6xl gap-4">
+  <div class="flex items-center h-full gap-2">
+    <img class="h-2/3" src="assets/ograph-linkedin.webp" alt="linkedin logo">
+    <form action="" class="flex gap-4">
+      <input class="h-8 p-4 border rounded-md w-72" placeholder="Buscar" type="text" name="search" #search
+        (keydown.enter)="submitSearch(search.value)" />
+    </form>
+  </div>
+  <header-nav class="flex text-xs" />
+</div>
