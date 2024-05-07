@@ -1,26 +1,30 @@
 main {
   display: grid;
-  grid-template-areas:
-    "profile feed news"
-    "community feed footer";
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: none;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 576px;
 }
 
-community-panel {
-  grid-area: "community";
+@media (width >=768px) {
+  main {
+    grid-template-columns: minmax(0, 225px) minmax(0, auto);
+    max-width: 720px;
+  }
 }
 
-feed {
-  grid-area: "feed";
+@media (width >=1024px) {
+  main {
+    grid-template-columns: minmax(0, 225px) minmax(0, auto) minmax(0, 300px);
+    max-width: 960px;
+  }
 }
 
-app-footer {
-  grid-area: "footer";
-}
-
-news-aside {
-  grid-area: "news";
-}
-
-small-profile {
-  grid-area: "profile";
+@media (width >=1280px) {
+  main {
+    grid-template-columns: minmax(0, 225px) minmax(0, auto) minmax(0, 300px);
+    max-width: 1128px;
+  }
 }
