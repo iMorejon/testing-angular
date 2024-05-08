@@ -1,0 +1,19 @@
+small-profile {
+  grid-area: profile;
+}
+
+community-panel {
+  grid-area: community;
+}
+
+feed {
+  grid-area: feed;
+}
+
+news {
+  grid-area: news;
+}
+
+app-footer {
+  grid-area: footer;
+}
