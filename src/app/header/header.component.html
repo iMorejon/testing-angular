@@ -1,10 +1,7 @@
 <div class="flex items-center justify-between w-full h-full max-w-6xl px-4">
   <div class="flex items-center h-full gap-2">
     <img class="z-10 h-2/3" src="assets/ograph-linkedin.webp" alt="linkedin logo">
-    <form action="" class="hidden gap-4 lg:flex">
-      <input class="flex-grow h-8 p-4 bg-gray-100 rounded-md resize-y max-w-72 placeholder:text-gray-500"
-        placeholder="Buscar" type="text" name="search" #search (keydown.enter)="submitSearch(search.value)" />
-    </form>
+    <search-bar />
   </div>
   <header-nav class="flex text-xs tracking-tight" />
 </div>
