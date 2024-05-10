@@ -2,11 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-app-root {
-  display: grid;
-  height: 100dvh;
-  width: 100dvw;
-  grid-template-rows: 3.5rem 1fr;
-  background-color: #F4F2EE;
-}
