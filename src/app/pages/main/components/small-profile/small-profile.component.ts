@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { CommunityPanelComponent } from '../community-panel/community-panel.component'
+import { CommunityPanelComponent } from '@app/pages/main/components/community-panel/community-panel.component'
 
 @Component({
   selector: 'small-profile',

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core'
 
 // Components
-import { CommunityPanelComponent } from './components/community-panel/community-panel.component'
-import { FeedComponent } from './components/feed/feed.component'
-import { FooterComponent } from '../components/footer/footer.component'
-import { MessageBoxComponent } from '../components/message-box/message-box.component'
-import { NewsAsideComponent } from './components/news-aside/news-aside.component'
-import { SmallProfileComponent } from './components/small-profile/small-profile.component'
+import { CommunityPanelComponent } from '@app/pages/main/components/community-panel/community-panel.component'
+import { FeedComponent } from '@app/pages/main/components/feed/feed.component'
+import { FooterComponent } from '@app/pages/components/footer/footer.component'
+import { MessageBoxComponent } from '@app/pages/components/message-box/message-box.component'
+import { NewsAsideComponent } from '@app/pages/main/components/news-aside/news-aside.component'
+import { SmallProfileComponent } from '@app/pages/main/components/small-profile/small-profile.component'
 
 @Component({
   selector: 'app-main',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { HeaderNavIconComponent } from '../header-nav-icon/header-nav-icon.component'
+import { HeaderNavIconComponent } from '@app/pages/components/header/partials/header-nav-icon/header-nav-icon.component'
 
 @Component({
   selector: 'header-nav',
