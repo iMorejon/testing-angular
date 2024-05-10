@@ -6,7 +6,9 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"],
-      "@app/*": ["./src/app/*"]
+      "@app/*": ["./src/app/*"],
+      "@pages/*": ["./src/app/pages/*"],
+      "@components/*": ["./src/app/components/*"],
     },
     "strict": true,
     "noImplicitOverride": true,
