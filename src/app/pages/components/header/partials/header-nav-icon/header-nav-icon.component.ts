@@ -1,5 +1,5 @@
 import { Component, Input, numberAttribute } from '@angular/core'
-import toCapitalize from '../../../../lib/toCapitalize'
+import toCapitalize from '../../../../../../lib/toCapitalize'
 
 @Component({
   selector: 'header-nav-icon',
