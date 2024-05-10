@@ -1,6 +1,6 @@
 import { Component } from '@angular/core'
-import { HeaderNavComponent } from '../header-nav/header-nav.component'
-import { SearchBarComponent } from '../search-bar/search-bar.component'
+import { HeaderNavComponent } from './partials/header-nav/header-nav.component'
+import { SearchBarComponent } from './partials/search-bar/search-bar.component'
 
 @Component({
   selector: 'app-header',
